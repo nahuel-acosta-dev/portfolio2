@@ -1,10 +1,15 @@
 ////////////////////////////////
-//1- Patron de Colores
+//0- Patron de Colores
 ////////////////////////////////
+$celestial: linear-gradient(
+        157.81deg,#def9fa -43.27%,#bef3f5 -21.24%,#9dedf0 12.19%,
+        #7de7eb 29.82%,#5ce1e6 51.94%,#33bbcf 90.29%
+    );
 
 ////////////////////////////////
-//Mi paleta de colores
+//1- Mi paleta de colores
 ////////////////////////////////
+$white: #ffffff;
 
 ////////////////////////////////
 //2- Modificando Variables Bootstrap
@@ -14,11 +19,20 @@
 ////////////////////////////////
 //2- Fonts
 ////////////////////////////////
-
+$font: 'Poppins', sans-serif;
+$weight-regular: 400;
+$weight-title: 600;
+$weight-bold: 700;
 
 ////////////////////////////////
 //3- mixins generals
 ////////////////////////////////
+@mixin font-regular{
+    font-family: $font;
+    font-weight: $weight-regular;
+}
+
+
 @mixin background-cover-center{
     background-repeat: no-repeat;
     background-position: center center;

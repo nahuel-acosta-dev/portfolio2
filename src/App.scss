@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400;1,700&display=swap');
 @import './scss/config/Variables';
-@import './scss/config/Basic';
 @import '~bootstrap/scss/bootstrap.scss';
+@import './scss/config/Basic';
 
 //Page
 @import './scss/pages/Portfolio';
+//Sections
+@import './scss/sections/Home';
+
+//extras
+@import './scss/extras/Title';
 
 //config
 @import './scss/config/Responsive';
