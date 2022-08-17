@@ -4,8 +4,8 @@ import Logo from '../../img/logo.png';
 
 const CustomNavbar = () => {
     return (
-    <header>
-      <Navbar bg="dark" variant="dark" expand="md" className="mb-3">
+    <header className="customNavbar">
+      <Navbar variant="dark" expand="md" className="mb-3 customNavbar__navbar">
           <Container fluid>
               <Navbar.Brand href="#">
                 <img
@@ -22,7 +22,9 @@ const CustomNavbar = () => {
               id={`offcanvasNavbar-expand-md`}
               aria-labelledby={`offcanvasNavbarLabel-expand-md`}
               placement="end"
-              bg="dark" variant="dark"
+              variant="dark"
+              className="customNavbar__offcanvas"
+              style={{backgroundColor: '#00040f'}}
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
