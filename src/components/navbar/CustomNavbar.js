@@ -62,5 +62,4 @@ const CustomNavbar = () => {
     </header>
     )
 }
-
 export default CustomNavbar;
