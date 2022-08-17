@@ -44,16 +44,16 @@ const CustomNavbar = () => {
                 Nahuel Acosta
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <hr/>
+              {show && <hr/>}
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="#home" onClick={handleClose}>
-                    Home
+                    Inicio
                   </Nav.Link>
-                  <Nav.Link href="#skills" onClick={handleClose}>Skills</Nav.Link>
-                  <Nav.Link href="#projects" onClick={handleClose}>Projects</Nav.Link>
-                  <Nav.Link href="#curriculum" onClick={handleClose}>CV</Nav.Link>
-                  <Nav.Link href="#contact" onClick={handleClose}>Contact</Nav.Link>
+                  <Nav.Link href="#skills" onClick={handleClose}>Sobre Mi</Nav.Link>
+                  <Nav.Link href="#projects" onClick={handleClose}>CV</Nav.Link>
+                  <Nav.Link href="#curriculum" onClick={handleClose}>Projectos</Nav.Link>
+                  <Nav.Link href="#contact" onClick={handleClose}>Contacto</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

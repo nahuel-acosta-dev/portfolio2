@@ -11,16 +11,15 @@ const Home = () => {
                     <Col>
                         <Row>
                             <Col>
-                            <span>Lorem ipsum is placeholder text commonly used</span>
+                            <span>Hola, my nombre es</span>
                             <h1 className="title__primary">
-                                Lorem ipsum is placeholder text commonly
+                               Brian Nahuel Acosta
+                               <p>Construyo cosas para la web</p>
                             </h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                                elit, sed do eiusmod tempor incididunt ut labore et 
-                                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                                nostrud exercitation ullamco laboris nisi ut aliquip ex 
-                                ea commodo consequat. Duis aute irure dolor in reprehenderit 
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p>Soy un ingeniero de software especializado en la construcción 
+                                (y ocasionalmente el diseño) de experiencias digitales 
+                                excepcionales. Actualmente, estoy enfocado en la construcción de 
+                                productos accesibles y centrados en el ser humano en Upstatement.</p>
                             </Col>
                             <Col xs={2}/>
                         </Row>

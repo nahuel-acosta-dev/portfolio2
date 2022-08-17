@@ -1,5 +1,7 @@
 import React from 'react';
 import Home from '../sections/Home';
+import Bar from '../sections/Bar';
+import Skills from '../sections/Skills';
 import CustomNavbar from '../components/navbar/CustomNavbar';
 
 const Portfolio = () => {
@@ -9,6 +11,8 @@ const Portfolio = () => {
 
             <main>
                 <Home/>
+                <Bar/>
+                <Skills/>
             </main>
         </>
     )
