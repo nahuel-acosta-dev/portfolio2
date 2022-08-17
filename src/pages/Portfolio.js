@@ -1,11 +1,16 @@
 import React from 'react';
 import Home from '../sections/Home';
+import CustomNavbar from '../components/navbar/CustomNavbar';
 
 const Portfolio = () => {
     return(
-        <main>
-            <Home/>
-        </main>
+        <>
+            <CustomNavbar />
+
+            <main>
+                <Home/>
+            </main>
+        </>
     )
 }
 
