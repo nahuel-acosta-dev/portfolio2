@@ -1,0 +1,16 @@
+.curriculum{
+    min-height: 90vh;
+    .curriculum__courses{
+        height: 20rem;
+        border: 2px solid cyan;
+        .curriculum__names{
+            border-right: 2px solid cyan;
+            padding: 0;
+            .curriculum__name{
+                height: auto;
+                width: 100%;
+                border-bottom: 2px solid cyan;
+            }
+        }
+    }
+}

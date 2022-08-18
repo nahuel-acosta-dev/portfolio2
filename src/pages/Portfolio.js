@@ -2,6 +2,7 @@ import React from 'react';
 import Home from '../sections/Home';
 import Bar from '../sections/Bar';
 import Skills from '../sections/Skills';
+import Curriculum from '../sections/Curriculum';
 import CustomNavbar from '../components/navbar/CustomNavbar';
 
 const Portfolio = () => {
@@ -13,6 +14,7 @@ const Portfolio = () => {
                 <Home/>
                 <Bar/>
                 <Skills/>
+                <Curriculum/>
             </main>
         </>
     )

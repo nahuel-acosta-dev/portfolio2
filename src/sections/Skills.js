@@ -10,9 +10,9 @@ const Skills = () =>{
                 <Row>
                     <Col>
                         <span>Lorem ipsum is placeholder text commonly used</span>
-                        <h1 className="title__primary">
+                        <h2 className="title__primary">
                             Sobre Mi
-                        </h1>
+                        </h2>
                         <p>¡Hola! Mi nombre es Brittany y disfruto creando cosas que viven en Internet. Mi interés en el desarrollo web comenzó en 2012 cuando decidí intentar editar temas personalizados de Tumblr, ¡resulta que hackear juntos un botón de reblog personalizado me enseñó mucho sobre HTML y CSS!
                             Avance rápido hasta hoy, y he tenido el privilegio de trabajar en una agencia de publicidad, una start-up, una gran corporacióny un estudio de diseño dirigido por estudiantes. Mi enfoque principal en estos días es construir productos accesibles e inclusivos y experiencias digitales en Upstatement para una variedad de clientes.
                             También recientemente lanzó un curso que cubre todo lo que necesita para crear una aplicación web con la API de Spotify utilizando Node & React.
