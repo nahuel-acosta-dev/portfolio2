@@ -1,0 +1,85 @@
+.project__article{
+    margin-bottom: 20vh;
+    .project__info{
+        padding-top: 2rem;
+        .project__title{
+            font-size: 2.2rem;
+            color: $white;
+            font-weight: $weight-title;
+        }
+        a{
+            color: $white;
+            &:hover{
+                color: $cyan;
+            }
+        }
+    }
+.project{
+    .project__carousel{
+        .project__figure{
+            transition: .3s;
+            &::before {
+                content: "";
+                background: linear-gradient(90.21deg, $cyan -5.91%, #4A2FBD 611.58%);
+                opacity: 0.55;
+                //box-shadow: 0 10px 30px -15px;
+                position: absolute;
+                width: 100%;
+                height: 0;
+                transition: 0.4s ease-in-out;  
+                height: 98%;
+                border-radius:$project-border;
+              }
+              &:hover::before {
+                border-radius:$project-border;
+                height: 0%;
+              }
+        }
+        img{
+            height: 100vh;
+            border-radius:$project-border;
+            transition: .3s;
+            z-index: -1;
+        }
+    }
+    
+}
+}
+
+//////////////////////////////
+/// General Mixins
+////////////////////////////
+@mixin dim-img($filter, $img){
+.project__figure{
+    &::before { 
+        height: $filter!important;
+      }
+img{
+    height: $img!important; 
+}
+}
+}
+
+//////////////////////////////
+/// Responsive
+/////////////////////////////
+@mixin project-responsive-lg{
+    @include dim-img(97%, 80vh);
+}
+
+@mixin project-responsive-md{
+    @include dim-img(0%, 70vh);
+}
+
+@mixin project-responsive-sm{
+    @include dim-img(0%, 50vh);
+}
+
+@mixin project-responsive-xs{
+    .project__article{
+        margin-bottom: 10vh!important;
+        .project__info{
+            padding-top: 1rem;
+        }
+    @include dim-img(0%, 30vh);}
+}

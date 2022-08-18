@@ -1,10 +1,20 @@
 /* eslint-disable no-multi-str */
+//Icons
 import Javascript from '../img/icons/javascript.svg';
 import Bootstrap from '../img/icons/bootstrap.svg';
 import React from '../img/icons/react.svg';
 import Django from '../img/icons/django.svg';
 import Python from '../img/icons/python.svg';
 import MySql from '../img/icons/mysql.svg';
+
+// Projects
+import SixLives from '../img/sixlives.png';
+import SixLives2 from '../img/sixlives2.png';
+import SixLives3 from '../img/sixlives3.png';
+
+import Simply from '../img/simply.png';
+import Simply2 from '../img/simply2.png';
+
 
 export const iconsFrontEnd = [
     {
@@ -122,5 +132,30 @@ export const certificates = [
                  una amplia gama de proyectos internos y de clientes"
             }
         ]
+    }
+]
+
+export const myProjects = [
+    {
+        subtitle: "UI DESIGN",
+        title: "Neri",
+        paragraph1: "Since 1962, Neri has been a symbol of excellence in high-end \
+        outdoor furniture and lighting systems in Italy and \
+        worldwide.",
+        images: [SixLives, SixLives2, SixLives3],
+        github: "https://github.com/nahuel43038/one-alura-challenge2.io",
+        url: "https://deploy-frontend-sixlives.vercel.app/app/home",
+        variant:"dark"
+    },
+    {
+        subtitle: "UI DESIGN",
+        title: "Neri",
+        paragraph1: "Since 1962, Neri has been a symbol of excellence in high-end \
+        outdoor furniture and lighting systems in Italy and \
+        worldwide.",
+        images: [Simply, Simply2],
+        github: "https://github.com/nahuel43038/OnePage-SimplyNeon.io",
+        url: "https://nahuel43038.github.io/OnePage-SimplyNeon.io/",
+        variant:"light"
     }
 ]
