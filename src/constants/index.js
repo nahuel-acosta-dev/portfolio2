@@ -44,7 +44,7 @@ export const iconsBackEnd = [
 
 export const certificates = [
     {
-        name: 'Cs50 Harvard University',
+        name: 'CS50',
         date: '2021 - 2022',
         title: 'Ingeniero @ Upstatement',
         id: 'cs50',
@@ -64,7 +64,7 @@ export const certificates = [
         ]
     },
     {
-        name: 'UTN Desarrollo web Full Stack',
+        name: 'UTN',
         date: '2021 - 2022',
         title: 'UTN Desarrollo web Full Stack',
         id: 'utn',
@@ -104,7 +104,7 @@ export const certificates = [
         ]
     },
     {
-        name: 'ONE Oracle Next Education',
+        name: 'ONE',
         date: '2021 - 2022',
         title: 'ONE Oracle Next Education',
         id: 'one',

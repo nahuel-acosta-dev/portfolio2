@@ -1,16 +1,57 @@
 .curriculum{
     min-height: 90vh;
     .curriculum__courses{
-        height: 20rem;
-        border: 2px solid cyan;
+        margin-top: 13%;
+        min-height: 10rem;
+        //border-left: 1px solid $slate;
+        color: $slate;
         .curriculum__names{
-            border-right: 2px solid cyan;
+            //border-right: 1px solid $slate;
             padding: 0;
+            color: $slate;
             .curriculum__name{
                 height: auto;
                 width: 100%;
-                border-bottom: 2px solid cyan;
+                border: none;
+                border-left: 1px solid $slate;
+                border-radius: 0px;
+                cursor: pointer;
+                transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+                height: 2.5rem;
+                background-color: transparent;
+                color: $slate;
+                font-weight:$weight-bold;
+                //white-space:nowrap;
+            
+                &:hover{
+                    border: none;
+                    border-left: 3px solid $cyan;
+                    background-color: $gray-shadow;
+                    color: $cyan;
+                }
+                &:focus{
+                    box-shadow: none;
+                }
             }
         }
+        .curriculum__description{
+            height: auto;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            font-size: 15px;
+            font-weight: normal;
+            .curriculum__item{
+                margin-top: 20px;
+            }
+        }
+        .curriculum__fill{
+            color: $cyan;
+        }
+    }
+
+    .curriculum__active{
+        border-left: 3px solid $cyan!important;
+        color: $cyan!important;
+        background-color: $gray-shadow!important;
     }
 }
