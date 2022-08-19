@@ -6,16 +6,19 @@ const Curriculum = () => {
     const [activatedItem, setActivatedItem] = useState('cs50');
 
     return(
-        <section className="curriculum">
+        <section className="curriculum" id="cv">
             <Container>
                 <Row>
+                    <p className="title__secondary">
+                            <span>0.3 </span> ALGUNOS CURSOS QUE TOME.
+                    </p>
                     <Col xs={1} md={2}></Col>
                     <Col>
+                    
                     <Row>
-                        <Col xs={9}><h3 className="title__secondary">
-                            <span>0.2 </span>  
-                             Algunos cursos que realize
-                        </h3></Col>
+                        <Col xs={9}>
+                        
+                        </Col>
                         <Col><hr/></Col>
                     </Row>
                         

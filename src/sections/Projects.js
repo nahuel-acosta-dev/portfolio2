@@ -6,10 +6,13 @@ import {myProjects} from '../constants/index';
 const Projects = () =>{
 
     return(
-        <section className="projects">
+        <section className="projects" id="projects">
             <Container>
                 <Row>
                     <Col>
+                    <p className="title__secondary projects__title">
+                            <span>0.4 </span> LO QUE PUEDE HACER.
+                    </p>
                     {myProjects.map((project, i) => (
                         <Project key={`project-${i}`} 
                         subtitle={project.subtitle}

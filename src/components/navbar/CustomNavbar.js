@@ -50,13 +50,13 @@ const CustomNavbar = () => {
                   <Nav.Link href="#home" onClick={handleClose} className="customNavbar__link">
                     <p><span>01. </span> <span>Inicio</span></p>
                   </Nav.Link>
-                  <Nav.Link href="#skills" onClick={handleClose} className="customNavbar__link">
+                  <Nav.Link href="#about_mi" onClick={handleClose} className="customNavbar__link">
                     <span>02. </span> <span>Sobre Mi</span>
                   </Nav.Link>
-                  <Nav.Link href="#projects" onClick={handleClose} className="customNavbar__link">
+                  <Nav.Link href="#cv" onClick={handleClose} className="customNavbar__link">
                     <span>03. </span> <span>CV</span>
                   </Nav.Link>
-                  <Nav.Link href="#curriculum" onClick={handleClose} className="customNavbar__link"> 
+                  <Nav.Link href="#projects" onClick={handleClose} className="customNavbar__link"> 
                     <span>04. </span> <span>Projectos</span>
                   </Nav.Link>
                   <Nav.Link href="#contact" onClick={handleClose} className="customNavbar__link">

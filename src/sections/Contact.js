@@ -14,6 +14,9 @@ const Contact = () =>{
                 <Row>
                     <Col lg={1}/>
                     <Col>
+                        <p className="title__secondary">
+                                <span>0.5 </span> ELIGE COMO CONTACTARME
+                        </p>
                         <Row>
                             <Col xs={12} md>
                                 <Row>

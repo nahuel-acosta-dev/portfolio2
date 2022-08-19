@@ -7,11 +7,16 @@ const Bar = () => {
     return(
         <section className="bar d-flex height-100 justify-content-center align-items-center align-content-center">
             <Container>
-                <Row>
-                    <Col>3800+ ENTUSIASMO</Col>
-                    <Col>230+ GANAS DE APRENDER</Col>
-                    <Col>$230M+ DEDICACION</Col>
-                    <Col>$230M+ ESFUERZO</Col>
+                <Row className="text-sm-center">
+                    <Col xs={12} sm className="title__secondary bar__text">
+                    <span><i class="bi bi-bookmark-star"></i></span> + ENTUSIASMO
+                    </Col>
+                    <Col xs={12} sm className="title__secondary bar__text">
+                    <span><i class="bi bi-journal-text"></i></span> + GANAS DE APRENDER
+                    </Col>
+                    <Col xs={12} sm className="title__secondary bar__text">
+                    <span><i class="bi bi-lightning-charge"></i></span> + DEDICACION
+                    </Col>
                 </Row>
             </Container>
         </section>

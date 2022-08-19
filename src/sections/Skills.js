@@ -5,11 +5,13 @@ import {iconsFrontEnd, iconsBackEnd} from '../constants/index';
 const Skills = () =>{
 
     return(
-        <section className="skills">
+        <section className="skills" id="about_mi">
             <Container>
                 <Row>
                     <Col xs={12} md>
-                        <span>Lorem ipsum is placeholder text commonly used</span>
+                        <p className="title__secondary">
+                            <span>0.2 </span> MIRA QUIEN SOY.
+                        </p>
                         <h2 className="title__primary">
                             Sobre Mi
                         </h2>
