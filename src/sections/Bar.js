@@ -5,12 +5,13 @@ const Bar = () => {
 
 
     return(
-        <section className="bar">
+        <section className="bar d-flex height-100 justify-content-center align-items-center align-content-center">
             <Container>
                 <Row>
-                    <Col>3800+ USER ACTIVE</Col>
-                    <Col>230+ TRUSTED BY COMPANY</Col>
-                    <Col>$230M+ TRANSACTION</Col>
+                    <Col>3800+ ENTUSIASMO</Col>
+                    <Col>230+ GANAS DE APRENDER</Col>
+                    <Col>$230M+ DEDICACION</Col>
+                    <Col>$230M+ ESFUERZO</Col>
                 </Row>
             </Container>
         </section>

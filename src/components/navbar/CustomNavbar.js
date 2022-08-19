@@ -46,14 +46,22 @@ const CustomNavbar = () => {
               </Offcanvas.Header>
               {show && <hr/>}
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#home" onClick={handleClose}>
-                    Inicio
+                <Nav className="justify-content-end flex-grow-1 pe-3 text-xs-center text-sm-center">
+                  <Nav.Link href="#home" onClick={handleClose} className="customNavbar__link">
+                    <p><span>01. </span> <span>Inicio</span></p>
                   </Nav.Link>
-                  <Nav.Link href="#skills" onClick={handleClose}>Sobre Mi</Nav.Link>
-                  <Nav.Link href="#projects" onClick={handleClose}>CV</Nav.Link>
-                  <Nav.Link href="#curriculum" onClick={handleClose}>Projectos</Nav.Link>
-                  <Nav.Link href="#contact" onClick={handleClose}>Contacto</Nav.Link>
+                  <Nav.Link href="#skills" onClick={handleClose} className="customNavbar__link">
+                    <span>02. </span> <span>Sobre Mi</span>
+                  </Nav.Link>
+                  <Nav.Link href="#projects" onClick={handleClose} className="customNavbar__link">
+                    <span>03. </span> <span>CV</span>
+                  </Nav.Link>
+                  <Nav.Link href="#curriculum" onClick={handleClose} className="customNavbar__link"> 
+                    <span>04. </span> <span>Projectos</span>
+                  </Nav.Link>
+                  <Nav.Link href="#contact" onClick={handleClose} className="customNavbar__link">
+                    <span>05. </span> <span>Contacto</span>
+                  </Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

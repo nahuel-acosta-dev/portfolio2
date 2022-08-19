@@ -22,7 +22,7 @@ $xxl: 1400px;
 }
 
 @media all and (max-width: $md){
-
+    @include customNavbar-responsive-md;
 }
 
 @media all and (min-width:$sm ) and (max-width: $md){
@@ -40,7 +40,7 @@ $xxl: 1400px;
 ////////////////////////////////
 //1- Section
 ////////////////////////////////
-
+@include curriculum__responsive-sm;
  ////////////////////////////////
 //2- Pages
 ////////////////////////////////

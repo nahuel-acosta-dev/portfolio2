@@ -36,7 +36,7 @@
               }
         }
         img{
-            height: 100vh;
+            height: 80vh;
             border-radius:$project-border;
             transition: .3s;
             z-index: -1;
@@ -64,11 +64,15 @@ img{
 /// Responsive
 /////////////////////////////
 @mixin project-responsive-lg{
-    @include dim-img(97%, 80vh);
+    .project__figure{
+    img{
+        height: 70vh; 
+    }
+    }
 }
 
 @mixin project-responsive-md{
-    @include dim-img(0%, 70vh);
+    @include dim-img(0%, 60vh);
 }
 
 @mixin project-responsive-sm{

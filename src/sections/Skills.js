@@ -8,7 +8,7 @@ const Skills = () =>{
         <section className="skills">
             <Container>
                 <Row>
-                    <Col>
+                    <Col xs={12} md>
                         <span>Lorem ipsum is placeholder text commonly used</span>
                         <h2 className="title__primary">
                             Sobre Mi
@@ -19,7 +19,7 @@ const Skills = () =>{
                             Aquí hay algunas tecnologías con las que he estado trabajando recientemente:
                         </p>
                     </Col>
-                    <Col>
+                    <Col xs={12} md>
                         <article>
                             <Row className="skills__dev justify-content-center align-content-center">
                                 {

@@ -1,5 +1,6 @@
 .curriculum{
     min-height: 90vh;
+    padding-top: 10%;
     .curriculum__courses{
         margin-top: 13%;
         min-height: 10rem;
@@ -48,10 +49,24 @@
             color: $cyan;
         }
     }
+    .curriculum__cv{
+        margin-top: 80px;
+        width: 100%;
+    }
 
     .curriculum__active{
         border-left: 3px solid $cyan!important;
         color: $cyan!important;
         background-color: $gray-shadow!important;
+    }
+}
+
+////////////////////////////////
+/// Responsive
+//////////////////////////////////
+/// 
+@mixin curriculum__responsive-sm{
+    .curriculum__item{
+        font-size: 12px;
     }
 }

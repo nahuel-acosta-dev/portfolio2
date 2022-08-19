@@ -2,5 +2,33 @@
     min-height: 15vh;
     .customNavbar__navbar{
         background-color: transparent;
+        .customNavbar__link{
+            span{
+                &:nth-child(1){
+                color: $cyan;}
+                &:nth-child(2){
+                    &:hover{
+                        color: $cyan;
+                    }
+                }
+                font-weight: $weight-title;
+            }
+        }
+    }
+}
+
+@mixin customNavbar-responsive-md{
+    .customNavbar__link{
+        font-size: 1.3rem;
+        text-align: center!important;
+        span{
+            &:nth-child(1){
+                color: $cyan;
+            }
+            &:nth-child(2){
+                &::before { content: '\A'; white-space: pre;}
+            }
+            
+        }
     }
 }

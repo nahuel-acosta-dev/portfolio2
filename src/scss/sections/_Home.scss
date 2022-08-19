@@ -1,8 +1,58 @@
 .home{
     min-height: 120vh;
     padding-top: 10%;
+    .home__subtitle{
+        color: $cyan;
+        font-size: 18px;
+        font-weight:$weight-title;
+    }
+    h1{
+        span{
+            color: #ccd6f6;
+        }
+        p{
+            color: $slate;
+        }
+    }
+    .home__icons{
+        font-size: 3rem;
+        .home__contIcon{
+            &:hover{
+                animation:vibrate .5s infinite;
+                
+                transition: all .4s;
+                transition-property: all;
+                transition-duration: 0.4s;
+                transition-timing-function: ease-out;
+                transition-delay: 0s;
+            }
+            a{
+                color: $white;
+                &:hover{
+                    color: $cyan;
+                }
+            }
+        }
+        
+    }
+
     .home__img{
-        background: rgba(255,255,255,.6);
-        filter: blur(750px);
+        img{
+            
+        }
+        background: transparent;
+    }
+}
+
+////////////////////////////////
+//keyframes
+////////////////////////////////
+
+@keyframes vibrate{
+    0%{transform:rotate(8deg) scale(1.04)
+    }
+    50%{transform:rotate(-8deg) scale(1.04)
+    }
+    100%{transform:rotate(8deg) scale(1.04)
     }
 }

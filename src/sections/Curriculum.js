@@ -9,20 +9,19 @@ const Curriculum = () => {
         <section className="curriculum">
             <Container>
                 <Row>
-                    <Col xs={3}></Col>
+                    <Col xs={1} md={2}></Col>
                     <Col>
                     <Row>
                         <Col xs={9}><h3 className="title__secondary">
-                          <span>
-                            0.2 </span>  
-                             Algunos cursos que eh realizado
+                            <span>0.2 </span>  
+                             Algunos cursos que realize
                         </h3></Col>
                         <Col><hr/></Col>
                     </Row>
                         
                         <article>
                             <Row className="curriculum__courses">
-                                <Col xs={3} className="curriculum__names">
+                                <Col xs={3} md={2} className="curriculum__names">
                                     {
                                         certificates.map((certificate, i) => (
                                             <Button key={i} 
@@ -59,11 +58,23 @@ const Curriculum = () => {
                                             </div>)
                                         ))
                                     }
+                                    <Row>
+                                        <Col xs={1}/>
+                                        <Col>
+                                            <a href="#" alt="" rel="noreferrer"
+                                            className="btn btn-outline-info text-decoration-none
+                                            curriculum__cv"
+                                            >
+                                                Descargar CV <i class="bi bi-cloud-arrow-down"></i>
+                                            </a>
+                                        </Col>
+                                        <Col xs={1}/>
+                                    </Row>
                                 </Col>
                             </Row>
                         </article>
                     </Col>
-                    <Col xs={3}></Col>
+                    <Col  xs={1} md={2}></Col>
                 </Row>
             </Container>
         </section>
