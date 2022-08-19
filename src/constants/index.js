@@ -142,6 +142,9 @@ export const myProjects = [
         paragraph1: "Since 1962, Neri has been a symbol of excellence in high-end \
         outdoor furniture and lighting systems in Italy and \
         worldwide.",
+        paragraph2: "Since 1962, Neri has been a symbol of excellence in high-end \
+        outdoor furniture and lighting systems in Italy and \
+        worldwide.",
         images: [SixLives, SixLives2, SixLives3],
         github: "https://github.com/nahuel43038/one-alura-challenge2.io",
         url: "https://deploy-frontend-sixlives.vercel.app/app/home",
@@ -151,6 +154,9 @@ export const myProjects = [
         subtitle: "UI DESIGN",
         title: "Neri",
         paragraph1: "Since 1962, Neri has been a symbol of excellence in high-end \
+        outdoor furniture and lighting systems in Italy and \
+        worldwide.",
+        paragraph2: "Since 1962, Neri has been a symbol of excellence in high-end \
         outdoor furniture and lighting systems in Italy and \
         worldwide.",
         images: [Simply, Simply2],

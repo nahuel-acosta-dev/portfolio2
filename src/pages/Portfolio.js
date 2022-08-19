@@ -5,6 +5,8 @@ import Skills from '../sections/Skills';
 import Curriculum from '../sections/Curriculum';
 import Projects from '../sections/Projects';
 import CustomNavbar from '../components/navbar/CustomNavbar';
+import Footer from '../components/footer/Footer';
+import Contact from '../sections/Contact';
 
 const Portfolio = () => {
     return(
@@ -17,6 +19,8 @@ const Portfolio = () => {
                 <Skills/>
                 <Curriculum/>
                 <Projects/>
+                <Contact/>
+                <Footer/>
             </main>
         </>
     )

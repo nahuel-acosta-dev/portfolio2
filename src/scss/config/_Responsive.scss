@@ -8,6 +8,11 @@ $xxl: 1400px;
     
  }
 
+ @media all and (max-width: $lg){
+    @include contact-responsive-lg;
+
+}
+
 @media all and (min-width: $lg) and (max-width: $xl){
     @include project-responsive-lg;
 }
@@ -29,6 +34,7 @@ $xxl: 1400px;
 //1- Components
 ////////////////////////////////
 @include project-responsive-xs;
+
 
 
 ////////////////////////////////

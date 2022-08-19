@@ -19,6 +19,7 @@ const Projects = () =>{
                         images={project.images}
                         github={project.github}
                         url={project.url}
+                        variant={project.variant}
                         />
                     ))}
                     </Col>
