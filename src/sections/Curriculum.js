@@ -77,7 +77,7 @@ const Curriculum = () => {
                             </Row>
                         </article>
                     </Col>
-                    <Col  xs={1} md={2}></Col>
+                    <Col xs={1} md={2}></Col>
                 </Row>
             </Container>
         </section>
