@@ -8,18 +8,20 @@ const Home = () => {
         <section className="home" id="home">
             <Container>
                 <Row>
-                    <Col xs={{ order: 2 }} sm={{order: 1}}>
+                    <Col xs={{ order: 2 }} sm={{order: 2, span: 12}} md={{order: 1}}>
                         <Row>
                             <Col>
-                            <span className="home__subtitle">Hola, my nombre es</span>
-                            <h1 className="title__primary">
+                            <span className="home__subtitle">Hola, mi nombre es</span>
+                            <h1 className="title__primary home__title">
                                <span>Nahuel Acosta.</span>
-                               <p>Construyo cosas para la web</p>
+                               <p>Programador Web</p>
                             </h1>
-                            <p>Soy un ingeniero de software especializado en la construcción 
-                                (y ocasionalmente el diseño) de experiencias digitales 
-                                excepcionales. Actualmente, estoy enfocado en la construcción de 
-                                productos accesibles y centrados en el ser humano en Upstatement.</p>
+                            <p> Si buscas un desarrollador paciente, y 
+                                que gusta de poner su máximo esfuerzo para que cada sitio web
+                                salga de la mejor manera posible no dudes en contactarte conmigo 
+                                a través de alguno de los siguientes medios, además de poder enviarme un 
+                                mensaje mediante WhatsApp o Telegram.
+                            </p>
                             <Row className="home__icons">
                                 <Col>
                                     <div className="home__contIcon">
@@ -56,10 +58,10 @@ const Home = () => {
                                 </Col>
                             </Row>
                             </Col>
-                            <Col xs={2}/>
+                            <Col xs={1} sm={2}/>
                         </Row>
                     </Col>
-                    <Col xs={{ order: 1, span: 4 }} sm={{order:2,span:4}}>
+                    <Col xs={{ order: 1, span: 4 }} sm={{order:1,span:12}} md={{order: 2}}>
                         {/*imagen a cambiar en lo posible*/}
                         <div className="home__img">
                             <img 

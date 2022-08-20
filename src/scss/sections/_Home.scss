@@ -68,3 +68,15 @@
         transform: translateY(-20px);
     }
   }
+
+////////////////////////////////
+//Responsive
+////////////////////////////////
+/// 
+@mixin home-responsive-xs {
+    .home__title{
+        p{
+            font-size: 3rem;
+        }
+    }
+}

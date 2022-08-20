@@ -9,7 +9,7 @@ const Bar = () => {
             <Container>
                 <Row className="text-sm-center">
                     <Col xs={12} sm className="title__secondary bar__text">
-                    <span><i class="bi bi-bookmark-star"></i></span> + ENTUSIASMO
+                    <span><i class="bi bi-bookmark-star"></i></span> + ENTUSIASTA
                     </Col>
                     <Col xs={12} sm className="title__secondary bar__text">
                     <span><i class="bi bi-journal-text"></i></span> + GANAS DE APRENDER

@@ -1,14 +1,22 @@
 .footer{
     background-color: $black;
-    height: 20vh;
+    min-height: 20vh;
     color: $white;
     display: flex;
     align-items: center;
+    padding-bottom: 40px;
     .footer__title{
         font-size: 1.2rem;
         font-weight: bold;
     }
     a{
         color: $white;
+        margin-top: 10px;
+    }
+}
+
+@mixin footer-responsive-xs{
+    .footer__title{
+        margin-top: 20px;
     }
 }
