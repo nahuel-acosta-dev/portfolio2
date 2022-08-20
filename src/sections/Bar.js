@@ -9,13 +9,13 @@ const Bar = () => {
             <Container>
                 <Row className="text-sm-center">
                     <Col xs={12} sm className="title__secondary bar__text">
-                    <span><i class="bi bi-bookmark-star"></i></span> + ENTUSIASTA
+                    <span><i className="bi bi-bookmark-star"></i></span> + ENTUSIASTA
                     </Col>
                     <Col xs={12} sm className="title__secondary bar__text">
-                    <span><i class="bi bi-journal-text"></i></span> + GANAS DE APRENDER
+                    <span><i className="bi bi-journal-text"></i></span> + GANAS DE APRENDER
                     </Col>
                     <Col xs={12} sm className="title__secondary bar__text">
-                    <span><i class="bi bi-lightning-charge"></i></span> + DEDICACION
+                    <span><i className="bi bi-lightning-charge"></i></span> + DEDICACION
                     </Col>
                 </Row>
             </Container>

@@ -47,7 +47,7 @@ const Project = ({subtitle, title, p1, p2, images, github, url, variant}) =>{
                                                 target="_blank"
                                                 className="text-decoration-none"
                                                 > 
-                                                <i class="bi bi-github"></i>
+                                                <i className="bi bi-github"></i>
                                                 </a>
                                             </Col>
                                             <Col>
@@ -56,7 +56,7 @@ const Project = ({subtitle, title, p1, p2, images, github, url, variant}) =>{
                                                 target="_blank"
                                                 className="text-decoration-none"
                                                 > 
-                                                <i class="bi bi-box-arrow-up-right"></i>
+                                                <i className="bi bi-box-arrow-up-right"></i>
                                                 </a>
                                             </Col>
                                             <Col xs={2}></Col>

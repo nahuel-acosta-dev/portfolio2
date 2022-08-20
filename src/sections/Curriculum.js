@@ -52,7 +52,7 @@ const Curriculum = () => {
                                                     certificate.items.map((item, i) =>(
                                                         <div key={`item${i}`} className="curriculum__item">
                                                             <Row>
-                                                                <Col xs={1}><i class="bi bi-caret-right-fill curriculum__fill"></i></Col>
+                                                                <Col xs={1}><i className="bi bi-caret-right-fill curriculum__fill"></i></Col>
                                                                 <Col>{item.description}</Col>
                                                             </Row>
                                                         </div>
@@ -68,7 +68,7 @@ const Curriculum = () => {
                                             className="btn btn-outline-info text-decoration-none
                                             curriculum__cv"
                                             >
-                                                Descargar CV <i class="bi bi-cloud-arrow-down"></i>
+                                                Descargar CV <i className="bi bi-cloud-arrow-down"></i>
                                             </a>
                                         </Col>
                                         <Col xs={1}/>

@@ -1,12 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Avatar from '../img/avatar.jpg';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import Alert from 'react-bootstrap/Alert';
+import emailjs from '@emailjs/browser';
 
 const Contact = () =>{
+    const [show, setShow] = useState(true);
+
+    const sendMail = (e) =>{
+        e.preventDefault();
+
+        emailjs.sendForm('service_8hx1ysg', 'template_plcmsep', e.target, 'RUPS8-x410P5DMfse')
+        .then(response => {
+            console.log(response)
+            setShow('successful');
+        })
+        .catch(error => {
+            console.log(error)
+            setShow('err');
+        })
+    }
 
     return(
         <section className="contact" id="contact">
@@ -37,7 +54,7 @@ const Contact = () =>{
                                                 className="text-decoration-none"
                                                 alt="icon linkedin"
                                                 rel="noreferrer">
-                                                    <i class="bi bi-envelope-fill"></i>
+                                                    <i className="bi bi-envelope-fill"></i>
                                                 </a>
                                             </Col>
                                             <Col className="d-flex align-items-end justify-content-center">
@@ -46,7 +63,7 @@ const Contact = () =>{
                                                 alt="icon linkedin"
                                                 rel="noreferrer"
                                                 >
-                                                    <i class="bi bi-whatsapp"></i>
+                                                    <i className="bi bi-whatsapp"></i>
                                                 </a>
                                             </Col>
                                         </Row>
@@ -56,22 +73,44 @@ const Contact = () =>{
                                 </Row>
                             </Col>
                             <Col className="contact__form" xs={12} lg>
+                                {show &&
+                                    <Alert className="contact__alert text-center" variant={
+                                        `${show === 'successful' ? "info" : 'danger'}`}>
+                                        <span>
+                                            {show === 'successful' ?
+                                            (<>Gracias por su mensaje! contenstare a la brevedad.</>)
+                                            :
+                                            (<>
+                                                Oh! lo siento aparentemente ocurrio un error al enviar el mensaje.
+                                                por favor trate de contactarme a travez de las otras formas de contacto
+                                                que deje en mi tarjeta o por linkedin.
+                                            </>)
+                                        }
+                                        </span>
+                                        <div className="d-flex justify-content-center">
+                                        <Button onClick={() => setShow(false)} variant="outline-info"
+                                        style={{marginTop: '20px'}}
+                                        >
+                                            Cerrar mensaje
+                                        </Button>
+                                        </div>
+                                    </Alert>}
                                 <p className="contact__text">Ponerse en Contacto</p>
-                                <Form>
+                                <Form onSubmit={sendMail}>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                         <Form.Label>Nombre</Form.Label>
                                         <Form.Control className="contact__input" type="text" 
-                                        placeholder="Ingresa tu Nombre" />
+                                        placeholder="Ingresa tu Nombre" name="user_name"/>
                                     </Form.Group>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
                                         <Form.Label>Email</Form.Label>
                                         <Form.Control className="contact__input" type="email" 
-                                        placeholder="Ingresa tu Email" />
+                                        placeholder="Ingresa tu Email" name="user_email" />
                                     </Form.Group>
                                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                         <Form.Label>Mensaje</Form.Label>
                                         <Form.Control className="contact__input" as="textarea" rows={3} 
-                                        placeholder="Ingresa un Mensaje" />
+                                        placeholder="Ingresa un Mensaje" name="user_message"/>
                                     </Form.Group>
                                         <Button className="contact__btn" variant="dark" size="lg" type="submit">
                                             <span>Enviar</span>
