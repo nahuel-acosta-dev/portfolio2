@@ -15,14 +15,17 @@ const Skills = () =>{
                         <h2 className="title__primary">
                             Sobre Mi
                         </h2>
-                        <p>¡Hola! Mi nombre es Nahuel, me gusta todo lo que tenga que ver con la tecnología y que implique resolver problemas con ella. A mediados de 2020 debido a que realizaba varias tareas con mi computadora,  decidí profundizar más acerca de mis conocimientos informáticos y me aventé a aprender programación.
-                            Luego de 2 meses aprendiendo a programar me incline por la rama del 
-                            desarrollo web. Aunque mi enfoque es principalmente en el desarrollo 
-                            web Back-End, También tengo algunos conocimientos en el front-end. 
-                            Además de las tecnologías principales que menciono en las tarjetas de 
-                            abajo, también tengo conocimiento en otras herramientas y lenguajes como 
-                            GitHub,  Git,  HTML,  CSS,  Sass y actualmente  me encuentro aprendiendo 
-                            un poco de  Docker.
+                        <p>¡Hola! Mi nombre es Nahuel, me gusta todo lo que tenga que ver con la 
+                            tecnología y que implique resolver problemas con ella. A mediados de
+                            2020 debido a que realizaba varias tareas con mi computadora, decidí 
+                            profundizar más acerca de mis conocimientos informáticos y me aventé a 
+                            aprender programación. Luego de 2 meses aprendiendo a programar me 
+                            incline por la rama del  desarrollo web. Aunque mi enfoque es 
+                            principalmente en el desarrollo  web Back-End, También tengo algunos 
+                            conocimientos en el Front-End. Además de las tecnologías principales que 
+                            menciono en las tarjetas de abajo, también tengo conocimiento en otras 
+                            herramientas y lenguajes como GitHub, Git, HTML, CSS, Sass y actualmente 
+                            me encuentro aprendiendo  un poco de Docker.
                         </p>
                     </Col>
                     <Col xs={12} md>

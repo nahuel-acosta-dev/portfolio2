@@ -16,11 +16,10 @@ const Home = () => {
                                <span>Nahuel Acosta.</span>
                                <p>Programador Web</p>
                             </h1>
-                            <p> Si buscas un desarrollador paciente, y 
-                                que gusta de poner su máximo esfuerzo para que cada sitio web
-                                salga de la mejor manera posible no dudes en contactarte conmigo 
-                                a través de alguno de los siguientes medios, además de poder enviarme un 
-                                mensaje mediante WhatsApp o Telegram.
+                            <p> Si buscas un desarrollador paciente que gusta de poner su máximo 
+                                esfuerzo para que cada sitio web salga de la mejor manera posible, 
+                                no dudes en contactarte conmigo a través de alguno de los siguientes 
+                                medios, además de poder enviarme un mensaje mediante WhatsApp o Telegram.
                             </p>
                             <Row className="home__icons">
                                 <Col>
