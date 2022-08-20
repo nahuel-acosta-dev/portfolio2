@@ -60,8 +60,7 @@ export const certificates = [
         id: 'cs50',
         items: [
             {
-                description: "Curso dictado por la universidad Harvard, en las que pude \
-                desarrollar mucho mejor mi pensamiento algorítmico y a desarrollar aplicaciones web, desde el Back-End con Python y Django, hasta el Front-End con  JavaScript y React."
+                description: "Curso dictado por la universidad Harvard, en las que pude desarrollar varias aplicaciones web utilizando JavaScript y React en el Front-End. Y creando apis con Python y Django. Además de aprender como funcionan algunas herramientas como JSON Web Token y WebSocket."
             },
         ]
     },
@@ -72,8 +71,7 @@ export const certificates = [
         id: 'utn',
         items: [
             {
-                description: "Aprendi a desarrollar aplicaciones web con un framwork css como bootstrap, \
-                y mejore mis conocimientos en Back-End implementado una base de datos MySql."
+                description: "Desarrolle una aplicación web integrando MySQL a PHP y utilizando  Bootstrap e JavaScript para construir la interfaz web."
             },
         ]
     },
@@ -84,14 +82,8 @@ export const certificates = [
         id: 'codo',
         items: [
             {
-                description: "Aun sigo cursandolo, Me decidi a entrar a este curso para profundizar \
-                mis conocimientos en el back-end."
-            },
-            {
-                description: "Además de seguir trabajando mis aplicaciones con Python y Django,  \
-                decidí sumar a Java para poder tener un abanico de opciones mucho más grande a la hora de \
-                elegir como desarrollador la lógica que va por detrás de mis aplicaciones web."
-            },
+                description: "Aún sigo cursándolo, Me decidí a entrar a este curso para profundizar  mis conocimientos en el back-end con Java."
+            }
         ]
     },
     {
@@ -101,9 +93,9 @@ export const certificates = [
         id: 'one',
         items: [
             {
-                description: "También sigo cursándolo cerca de terminarlo, \
-                aprendí mucho. Arquitectura del software y muchas buenas prácticas, \
-                que fueron fundaméntales para poder organizar mis proyectos."
+                description: "Cerca de terminarlo, aprendí conceptos sobre \
+                Arquitectura del software y muchas buenas prácticas, \
+                que fueron fundaméntales para poder organizar la estructura de mis proyectos."
             }
         ]
     }
