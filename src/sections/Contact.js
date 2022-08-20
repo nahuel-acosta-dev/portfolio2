@@ -9,7 +9,7 @@ import Alert from 'react-bootstrap/Alert';
 import emailjs from '@emailjs/browser';
 
 const Contact = () =>{
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
 
     const sendMail = (e) =>{
         e.preventDefault();
