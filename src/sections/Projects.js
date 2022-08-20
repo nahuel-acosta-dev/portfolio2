@@ -11,7 +11,7 @@ const Projects = () =>{
                 <Row>
                     <Col>
                     <p className="title__secondary projects__title">
-                            <span>0.4 </span> LO QUE PUEDE HACER.
+                            <span>0.4 </span> LO QUE PUEDO HACER.
                     </p>
                     {myProjects.map((project, i) => (
                         <Project key={`project-${i}`} 
