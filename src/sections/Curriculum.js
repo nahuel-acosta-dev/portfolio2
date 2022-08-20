@@ -10,7 +10,7 @@ const Curriculum = () => {
             <Container>
                 <Row>
                     <p className="title__secondary">
-                            <span>0.3 </span> ALGUNOS CURSOS QUE TOME.
+                            <span>0.3 </span> ALGUNAS DE MIS CERTIFICACIONES
                     </p>
                     <Col xs={1} md={2}></Col>
                     <Col>

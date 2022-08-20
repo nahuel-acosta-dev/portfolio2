@@ -8,7 +8,7 @@ const Home = () => {
         <section className="home" id="home">
             <Container>
                 <Row>
-                    <Col xs={{ order: 2 }} sm={{order: 2, span: 12}} md={{order: 1}}>
+                    <Col xs={{ order: 2 }} sm={{order: 2, span: 12}} md={{order: 2}} lg>
                         <Row>
                             <Col>
                             <span className="home__subtitle">Hola, mi nombre es</span>
@@ -61,7 +61,7 @@ const Home = () => {
                             <Col xs={1} sm={2}/>
                         </Row>
                     </Col>
-                    <Col xs={{ order: 1, span: 4 }} sm={{order:1,span:12}} md={{order: 2}}>
+                    <Col xs={{ order: 1, span: 4 }} sm={{order:1,span:12}} md={{order: 1, span: 4 }} lg={{order:2, span:4}}>
                         {/*imagen a cambiar en lo posible*/}
                         <div className="home__img">
                             <img 

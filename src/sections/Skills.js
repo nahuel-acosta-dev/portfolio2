@@ -15,10 +15,14 @@ const Skills = () =>{
                         <h2 className="title__primary">
                             Sobre Mi
                         </h2>
-                        <p>¡Hola! Mi nombre es Brittany y disfruto creando cosas que viven en Internet. Mi interés en el desarrollo web comenzó en 2012 cuando decidí intentar editar temas personalizados de Tumblr, ¡resulta que hackear juntos un botón de reblog personalizado me enseñó mucho sobre HTML y CSS!
-                            Avance rápido hasta hoy, y he tenido el privilegio de trabajar en una agencia de publicidad, una start-up, una gran corporacióny un estudio de diseño dirigido por estudiantes. Mi enfoque principal en estos días es construir productos accesibles e inclusivos y experiencias digitales en Upstatement para una variedad de clientes.
-                            También recientemente lanzó un curso que cubre todo lo que necesita para crear una aplicación web con la API de Spotify utilizando Node & React.
-                            Aquí hay algunas tecnologías con las que he estado trabajando recientemente:
+                        <p>¡Hola! Mi nombre es Nahuel, me gusta todo lo que tenga que ver con la tecnología y que implique resolver problemas con ella. A mediados de 2020 debido a que realizaba varias tareas con mi computadora,  decidí profundizar más acerca de mis conocimientos informáticos y me aventé a aprender programación.
+                            Luego de 2 meses aprendiendo a programar me incline por la rama del 
+                            desarrollo web. Aunque mi enfoque es principalmente en el desarrollo 
+                            web Back-End, También tengo algunos conocimientos en el front-end. 
+                            Además de las tecnologías principales que menciono en las tarjetas de 
+                            abajo, también tengo conocimiento en otras herramientas y lenguajes como 
+                            GitHub,  Git,  HTML,  CSS,  Sass y actualmente  me encuentro aprendiendo 
+                            un poco de  Docker.
                         </p>
                     </Col>
                     <Col xs={12} md>
