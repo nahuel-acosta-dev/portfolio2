@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {certificates} from '../constants/index';
 import {Col, Container, Row, Button} from 'react-bootstrap';
-
+import cv from '../nahuel_acosta_cv.pdf';
 const Curriculum = () => {
     const [activatedItem, setActivatedItem] = useState('cs50');
 
@@ -64,9 +64,10 @@ const Curriculum = () => {
                                     <Row>
                                         <Col xs={1}/>
                                         <Col>
-                                            <a href="#" alt="" rel="noreferrer"
+                                            <a href={cv} alt="curriculum de nahuel acosta" 
+                                            rel="noopener noreferrer"
                                             className="btn btn-outline-info text-decoration-none
-                                            curriculum__cv"
+                                            curriculum__cv" target="_blank"
                                             >
                                                 Descargar CV <i className="bi bi-cloud-arrow-down"></i>
                                             </a>
