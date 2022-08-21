@@ -15,6 +15,10 @@ import SixLives3 from '../img/sixlives3.png';
 import Simply from '../img/simply.png';
 import Simply2 from '../img/simply2.png';
 
+import Porfolio from '../img/porfolio.png';
+import Porfolio2 from '../img/porfolio2.png';
+import Porfolio3 from '../img/porfolio3.png';
+
 
 export const iconsFrontEnd = [
     {
@@ -124,6 +128,16 @@ export const myProjects = [
         images: [Simply, Simply2],
         github: "https://github.com/nahuel43038/OnePage-SimplyNeon.io",
         url: "https://nahuel43038.github.io/OnePage-SimplyNeon.io/",
+        variant:"light"
+    },
+    {
+        subtitle: "Porfolio",
+        title: "Variante de Porfolio",
+        paragraph1: "Cuando buscaba una idea de diseño para mi porfolio, esta fue una de las ideas que se me ocurrió, aunque finalmente decidí desencantarme por otro estilo con un estilo un poco más clásico.",
+        paragraph2: "Esta aplicación fue desarrollada con React y Bootstrap.",
+        images: [Porfolio, Porfolio2, Porfolio3],
+        github: "https://github.com/nahuel43038/portfolio",
+        url: "https://nahuel-acosta-dev.vercel.app/",
         variant:"light"
     }
 ]
