@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {certificates} from '../constants/index';
 import {Col, Container, Row, Button} from 'react-bootstrap';
-import cv from '../nahuel_acosta_cv.pdf';
+import cv from '../nahuel__acosta__cv.pdf';
 const Curriculum = () => {
     const [activatedItem, setActivatedItem] = useState('cs50');
 
