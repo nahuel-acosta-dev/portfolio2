@@ -72,7 +72,7 @@ const Skills = () =>{
             </Container>
         </section>
     )
-    
+
 }
 
 export default Skills;
