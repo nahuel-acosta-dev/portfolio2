@@ -23,7 +23,7 @@ const Skills = () =>{
                             incline por la rama del  desarrollo web. Aunque tengo mayores conocimientos
                             en el Front-End, tambien tengo conocimientos en el Back-End con Python y Django
                             para la construccion de APIs. Además de las tecnologías principales que 
-                            menciono en las tarjetas de abajo, también tengo conocimiento en otras 
+                            menciono en las tarjetas, también tengo conocimiento en otras 
                             herramientas y lenguajes como GitHub, Git, HTML, CSS, Sass y actualmente 
                             me encuentro aprendiendo un poco de Docker.
                         </p>
