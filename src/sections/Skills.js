@@ -25,7 +25,7 @@ const Skills = () =>{
                             para la construccion de APIs. Además de las tecnologías principales que 
                             menciono en las tarjetas, también tengo conocimiento en otras 
                             herramientas y lenguajes como GitHub, Git, HTML, CSS, Sass y actualmente 
-                            me encuentro aprendiendo un poco de Docker.
+                            me encuentro aprendiendo Docker.
                         </p>
                     </Col>
                     <Col xs={12} md>
