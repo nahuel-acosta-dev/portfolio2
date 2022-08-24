@@ -20,12 +20,12 @@ const Skills = () =>{
                             2020 debido a que realizaba varias tareas con mi computadora, decidí 
                             profundizar más acerca de mis conocimientos informáticos y me aventé a 
                             aprender programación. Luego de 2 meses aprendiendo a programar me 
-                            incline por la rama del  desarrollo web. Aunque mi enfoque es 
-                            principalmente en el desarrollo  web Back-End, También tengo algunos 
-                            conocimientos en el Front-End. Además de las tecnologías principales que 
+                            incline por la rama del  desarrollo web. Aunque tengo mayores conocimientos
+                            en el Front-End, tambien tengo conocimientos en el Back-End con Python y Django
+                            para la construccion de APIs. Además de las tecnologías principales que 
                             menciono en las tarjetas de abajo, también tengo conocimiento en otras 
                             herramientas y lenguajes como GitHub, Git, HTML, CSS, Sass y actualmente 
-                            me encuentro aprendiendo  un poco de Docker.
+                            me encuentro aprendiendo un poco de Docker.
                         </p>
                     </Col>
                     <Col xs={12} md>
