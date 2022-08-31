@@ -32,7 +32,7 @@ const Home = () => {
                                 </Col>
                                 <Col>
                                     <div className="home__contIcon">
-                                        <a href="https://github.com/nahuel43038" 
+                                        <a href="https://github.com/nahuel-acosta-dev" 
                                         rel="noreferrer" alt="icon"
                                         target="_blank"
                                         >

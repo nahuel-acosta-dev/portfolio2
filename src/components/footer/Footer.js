@@ -16,9 +16,9 @@ const Footer = () => {
                                 <p className="footer__title">&copy; Brian Nahuel Acosta</p>
                             </Col>
                             <Col xs={12} className="d-flex align-items-center justify-content-center">
-                                <a href="https://github.com/nahuel43038" target="_blank" 
+                                <a href="https://github.com/nahuel-acosta-dev" target="_blank" 
                                 rel="noreferrer" className="text-decoration-none">
-                                    <i className="bi bi-github"></i> github.com/nahuel43038
+                                    <i className="bi bi-github"></i> github.com/nahuel-acosta-dev
                                 </a>
                             </Col>
                             <Col xs={12} className="d-flex align-items-center justify-content-center">

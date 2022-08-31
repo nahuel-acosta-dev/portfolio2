@@ -115,7 +115,7 @@ export const myProjects = [
         paragraph2: "Esta aplicación fue desarrollada con React, Sass, Bootstrap y \
         Redux para el Front-End. Y con Django Rest Framework, MySQL y JSON Web Tokens para el Back-End.",
         images: [SixLives, SixLives2, SixLives3],
-        github: "https://github.com/nahuel43038/one-alura-challenge2.io",
+        github: "https://github.com/nahuel-acosta-dev/one-alura-challenge2.io",
         url: "https://deploy-frontend-sixlives.vercel.app/app/home",
         variant:"dark"
     },
@@ -126,8 +126,8 @@ export const myProjects = [
         desarrolle para mejorar mis conocimientos en el Front-End.",
         paragraph2: "Esta aplicación fue desarrollada con HTML/CSS, JavaScript y Bootstrap.",
         images: [Simply, Simply2],
-        github: "https://github.com/nahuel43038/OnePage-SimplyNeon.io",
-        url: "https://nahuel43038.github.io/OnePage-SimplyNeon.io/",
+        github: "https://github.com/nahuel-acosta-dev/OnePage-SimplyNeon.io",
+        url: "https://nahuel-acosta-dev.github.io/OnePage-SimplyNeon.io/",
         variant:"light"
     },
     {
@@ -136,7 +136,7 @@ export const myProjects = [
         paragraph1: "Cuando buscaba una idea de diseño para mi porfolio, esta fue una de las ideas que se me ocurrió, aunque finalmente decidí desencantarme por otro estilo con un estilo un poco más clásico.",
         paragraph2: "Esta aplicación fue desarrollada con React y Bootstrap.",
         images: [Porfolio, Porfolio2, Porfolio3],
-        github: "https://github.com/nahuel43038/portfolio",
+        github: "https://github.com/nahuel-acosta-dev/portfolio",
         url: "https://nahuel-acosta-dev.vercel.app/",
         variant:"light"
     }
