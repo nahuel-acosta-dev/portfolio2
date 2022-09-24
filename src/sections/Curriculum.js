@@ -68,7 +68,7 @@ const Curriculum = () => {
                                             rel="noopener noreferrer"
                                             className="btn btn-outline-info text-decoration-none
                                             curriculum__cv" target="_blank"
-                                            >
+                                            download>
                                                 Descargar CV <i className="bi bi-cloud-arrow-down"></i>
                                             </a>
                                         </Col>
