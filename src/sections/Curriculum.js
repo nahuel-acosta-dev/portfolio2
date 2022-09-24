@@ -67,8 +67,7 @@ const Curriculum = () => {
                                             <a href={cv} alt="curriculum de nahuel acosta" 
                                             rel="noopener noreferrer"
                                             className="btn btn-outline-info text-decoration-none
-                                            curriculum__cv" target="_blank"
-                                            download>
+                                            curriculum__cv" target="_blank">
                                                 Descargar CV <i className="bi bi-cloud-arrow-down"></i>
                                             </a>
                                         </Col>
